@@ -12,6 +12,8 @@ The code was developed using Matlab R2022a and GeoPDEs in Version 3.2.0 [1, 2] a
 The GeoPDEs package needs to be installed seperately and added to the working directory.
 The Symbolic Math Toolbox [4] is used to compute the derivatives of the terms C(t) and A(t) for the assembly of the derivatives of the system matrices. If the Toolbox is not installed, the derivatives are read as function handles from a file. 
 
+The code was tested with Matlab 2022b (Windows, Mac), Matlab 2019a (Linux), Octave 6.2.0 (Linux) and Octave 7.3 (Mac). Note that the symbolic package of Octave is not supported.
+
 [1] R. Vázquez, A new design for the implementation of isogeometric analysis in Octave and Matlab: GeoPDEs 3.0, Computers & Mathematics with Applications, Volume 72, Issue 3, 2016, Pages 523-554.
 
 [2] C. de Falco, A. Reali, and R. Vazquez. GeoPDEs: A research tool for isogeometric analysis of PDEs. Advances in Engineering Software, 42(12):1020-1034, 2011.
